@@ -1,0 +1,6 @@
+require("./monitors.lua")
+require("./general.lua")
+require("./animations.lua")
+require("./xwayland.lua")
+require("./input.lua")
+require("./binds.lua")
