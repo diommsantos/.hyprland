@@ -43,7 +43,7 @@ hl.bind("SUPER + F", hl.dsp.window.float({ action = "toggle" }))
 -- hl.bind("SUPER + SPACE", hl.dsp app fuzzyfinder
 hl.bind("SUPER + T", hl.dsp.exec_cmd("kitty"))
 hl.bind("SUPER + B", hl.dsp.exec_cmd("zen-browser"))
--- missing hl.bind("SUPER + P", hl.dsp neovim in last open folder)
+hl.bind("SUPER + P", hl.dsp.exec_cmd("kitty nvim -S ~/projects/Session.vim"))
 
 hl.bind("SUPER + Q", hl.dsp.window.close())
 
