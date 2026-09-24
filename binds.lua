@@ -40,7 +40,7 @@ hl.bind("SUPER + K", hl.dsp.focus({direction = "u"}))
 hl.bind("SUPER + F11", hl.dsp.window.fullscreen_state({internal = 2, client = -1, action = "toggle"}))
 hl.bind("SUPER + F", hl.dsp.window.float({ action = "toggle" }))
 
--- hl.bind("SUPER + SPACE", hl.dsp app fuzzyfinder
+hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("vicinae toggle"))
 hl.bind("SUPER + T", hl.dsp.exec_cmd("kitty"))
 hl.bind("SUPER + B", hl.dsp.exec_cmd("zen-browser"))
 hl.bind("SUPER + P", hl.dsp.exec_cmd("kitty nvim -S ~/projects/Session.vim"))
